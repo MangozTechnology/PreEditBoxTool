@@ -53,6 +53,8 @@ public:
 
    virtual void AddToSceneGraph() = 0;
 
+   virtual void CameraCreateBrush() = 0;
+
 
 };
 
