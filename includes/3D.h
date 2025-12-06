@@ -14,6 +14,9 @@ public:
    BoxTool3D();
    virtual ~BoxTool3D();
 
+  BoxTool2D* m_boxTool2D;
+  BoxTool2D& m_currBox2D;
+
    bool bIsGL;
    bool IsD3D;
 
