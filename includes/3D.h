@@ -9,10 +9,10 @@
 /*
   3D Camera Implementation
 */
-class 3DBoxTool : public 2DBoxTool {
+class BoxTool3D : public BoxTool2D {
 public:
-   3DBoxTool();
-   virtual ~3DBoxTool();
+   BoxTool3D();
+   virtual ~BoxTool3D();
 
    bool bIsGL;
    bool IsD3D;
@@ -42,7 +42,7 @@ public:
    int m_nPlaneCount;
    int m_nFaceCount;
 
-   virtual void senderConnectLast() = 0;
+   virtual void senderConnectLast(BoxTool3D& camera) = 0;
 
    virtual void ShowBrush() = 0;
    virtual void ShowEntity() = 0;
