@@ -86,7 +86,7 @@ public:
    virtual bool ZoomIn(BoxTool2D& view, int type) = 0;
    virtual bool ZoomOut(BoxTool2D& view, int type) = 0;
    
-
+   virtual bool DragXYDirection(BoxTool2D& view, int type, vec3_t curr_drag) = 0;
 
 };
 
