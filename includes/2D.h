@@ -82,6 +82,10 @@ public:
    virtual void QueueXY() = 0;
    virtual void QueueXZ() = 0;
    virtual void QueueYZ() = 0;
+   
+   virtual bool ZoomIn(BoxTool2D& view, int type) = 0;
+   virtual bool 
+   
 
 
 };
