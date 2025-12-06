@@ -84,7 +84,7 @@ public:
    virtual void QueueYZ() = 0;
    
    virtual bool ZoomIn(BoxTool2D& view, int type) = 0;
-   virtual bool 
+   virtual bool ZoomOut(BoxTool2D& view, int type) = 0;
    
 
 
