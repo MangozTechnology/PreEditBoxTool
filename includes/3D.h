@@ -32,8 +32,8 @@ public:
    vec3_t angles;
    vec3_t* prev_angles;
 
-   float near;
-   float far;
+   float near = 45.0f;
+   float far = 120.0f;
 
    float zBuffer;
 
