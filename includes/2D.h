@@ -21,6 +21,11 @@ public:
 
    int rows;
    int columns;
+   
+   int x;
+   int y;
+   int w;
+   int h;
 
    bool bZoomIn;
    bool bZoomOut;
